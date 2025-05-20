@@ -26,7 +26,7 @@ const SubTitle = ({ text }: { text: string }) => {
 
 const TextTitle = ({ text }: { text: string }) => {
   return (
-    <h3 className="text-center lg:text-left text-xl lg:text-[16px] font-light text-secondary ">
+    <h3 className="text-center lg:text-left text-xl lg:text-[16px] font-bold text-secondary ">
       {text}
     </h3>
   );
@@ -35,7 +35,7 @@ const TextTitle = ({ text }: { text: string }) => {
 const SubText = ({ text }: { text: string }) => {
   return (
     <div>
-      <p className="text-base text-gray font-light text-center lg:text-left max-w-72 lg:max-w-72">
+      <p className="text-base text-gray font-light text-center lg:text-left">
         {text}
       </p>
     </div>
