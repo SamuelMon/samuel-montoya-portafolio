@@ -35,9 +35,7 @@ const TextTitle = ({ text }: { text: string }) => {
 const SubText = ({ text }: { text: string }) => {
   return (
     <div>
-      <p className="text-base text-gray font-light text-center lg:text-left">
-        {text}
-      </p>
+      <p className="text-base text-gray text-center lg:text-left">{text}</p>
     </div>
   );
 };
