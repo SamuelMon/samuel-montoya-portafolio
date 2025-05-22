@@ -27,7 +27,7 @@ const Index = () => {
     },
   ];
   return (
-    <div className="flex flex-col items-center w-[60%] bg-white rounded-2xl shadow-md p-6">
+    <div className="flex flex-col items-center w-full bg-white rounded-2xl shadow-md p-6">
       <MediumTitle text="Educación" />
       <div className="flex flex-col justify-center items-center gap-6 mt-6">
         {education.map((item, index) => (

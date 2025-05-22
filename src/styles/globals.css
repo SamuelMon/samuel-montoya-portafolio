@@ -3,11 +3,13 @@
 :root {
   --graybg: #d1d5db;
   --primary: #e67e22;
+  --secondary: #f27509;
   --available: #7eb942;
 }
 
 @theme inline {
   --color-graybg: var(--graybg);
   --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
   --color-available: var(--available);
 }
