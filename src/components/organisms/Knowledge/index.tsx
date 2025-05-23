@@ -27,12 +27,12 @@ const Index = () => {
     {
       icon: "ic:baseline-folder-open",
       subTitle: "Database",
-      text: " MongoDB, MySQL, PostgreSQL",
+      text: " MongoDB, MySQL",
     },
     {
       icon: "ic:baseline-security",
       subTitle: "Security",
-      text: "OWASP, JWT, OAuth",
+      text: "OWASP, JWT",
     },
   ];
 
