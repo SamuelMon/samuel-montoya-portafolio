@@ -1,4 +1,5 @@
 import Education from "@/components/organisms/Education";
+import Footer from "@/components/organisms/Footer";
 import Hero from "@/components/organisms/Hero";
 import Knowledge from "@/components/organisms/Knowledge";
 import Portfolio from "@/components/organisms/Portfolio";
@@ -12,6 +13,7 @@ export default function Home() {
         <Knowledge />
         <Education />
         <Portfolio />
+        <Footer />
       </div>
       <div></div>
     </div>

@@ -4,6 +4,7 @@
   --graybg: #d1d5db;
   --primary: #e67e22;
   --secondary: #f27509;
+  --footerbg: #1e2939;
   --available: #7eb942;
 }
 
@@ -11,5 +12,6 @@
   --color-graybg: var(--graybg);
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
+  --color-footerbg: var(--footerbg);
   --color-available: var(--available);
 }
