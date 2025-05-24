@@ -1,16 +1,16 @@
 import React from "react";
 
-const HeroTitle = ({ text }: { text: string }) => {
+const HeroTitle = ({ children }: { children: React.ReactNode }) => {
   return (
-    <h1 className="text-center lg:text-left text-4xlxl lg:text-5xl font-light text-secondary max-w-72 lg:max-w-96">
-      {text}
+    <h1 className="text-[28px] sm:text-[36px] lg:text-[48px] font-bold max-w-full lg:max-w-96 text-black">
+      {children}
     </h1>
   );
 };
 
 const MediumTitle = ({ text }: { text: string }) => {
   return (
-    <h2 className="text-center lg:text-left text-[32px] lg:text-[40px] font-light text-secondary max-w-72 lg:max-w-max">
+    <h2 className="text-center lg:text-left text-[32px] lg:text-[40px] font-bold max-w-72 lg:max-w-max">
       {text}
     </h2>
   );
@@ -18,9 +18,7 @@ const MediumTitle = ({ text }: { text: string }) => {
 
 const SubTitle = ({ text }: { text: string }) => {
   return (
-    <h3 className="text-center text-xl lg:text-[24px] font-light text-secondary ">
-      {text}
-    </h3>
+    <h3 className="text-center text-xl lg:text-[24px] font-bold ">{text}</h3>
   );
 };
 
@@ -35,7 +33,7 @@ const TextTitle = ({ text }: { text: string }) => {
 const SubText = ({ text }: { text: string }) => {
   return (
     <div>
-      <p className="text-base text-gray text-center lg:text-left">{text}</p>
+      <p className="text-gray text-xl text-center lg:text-left">{text}</p>
     </div>
   );
 };

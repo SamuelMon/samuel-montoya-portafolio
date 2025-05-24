@@ -20,7 +20,7 @@ function Index({
         <TextTitle text={firstTitle} />
         <div className="flex items-center gap-2">
           <SubText text="Estudiante" />
-          <span className="flex justify-center bg-primary rounded-2xl font-bold w-24">
+          <span className="flex justify-center bg-primary rounded-2xl font-bold w-32 shadow-md">
             <SubText text={date} />
           </span>
         </div>

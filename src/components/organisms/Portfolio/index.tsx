@@ -1,5 +1,6 @@
 import React from "react";
 import PortfolioItem from "@/components/molecules/PortfolioItem";
+import { MediumTitle } from "@/components/atoms/TextAndTitles";
 
 const Index = () => {
   const portfolioItems = [
@@ -24,7 +25,8 @@ const Index = () => {
   ];
 
   return (
-    <div className="w-full overflow-x-auto">
+    <div className="flex  flex-col items-center w-full overflow-x-auto">
+      <MediumTitle text="Portfolio" />
       <div className="flex flex-row gap-16 min-w-max px-4 mb-8">
         {portfolioItems.map((item, index) => (
           <PortfolioItem

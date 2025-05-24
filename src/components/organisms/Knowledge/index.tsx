@@ -37,7 +37,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center bg-transparent">
+    <div className="flex flex-col items-center justify-center bg-transparen w-full">
       <div className="flex flex-col items-center justify-center gap-4">
         <MediumTitle text="My Knowledge" />
         <p className="text-gray-600 text-center mt-2 fon">
@@ -46,7 +46,7 @@ const Index = () => {
         </p>
       </div>
       <div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-8">
           {knowledgeItems.map((item, index) => (
             <KnowledgeItem
               key={index}
