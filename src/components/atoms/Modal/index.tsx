@@ -16,7 +16,7 @@ const Index = ({ isOpen, onClose, children }: ModalProps) => {
         onClick={onClose} // Cierra el modal al hacer clic en el fondo
       ></div>
       <div
-        className="relative bg-white p-6 rounded-lg shadow-lg"
+        className="relative bg-white p-6 rounded-lg shadow-lg max-w-[50%] h-auto"
         onClick={(e) => e.stopPropagation()} // Evita que el clic dentro del modal cierre el modal
       >
         {children}
