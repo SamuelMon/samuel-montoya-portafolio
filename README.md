@@ -64,7 +64,7 @@ Este proyecto es un portafolio personal desarrollado con [Next.js](https://nextj
 
 ## 📦 Despliegue
 
-Proyecto desplegado en [Vercel](https://vercel.com/)
+Proyecto desplegado en [Vercel]([https://vercel.com/](https://samuel-montoya-portafolio.vercel.app/))
 
 ---
 
