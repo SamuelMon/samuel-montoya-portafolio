@@ -6,10 +6,13 @@ import React, { useState } from "react";
 import Image from "next/image";
 
 const Index = () => {
+  // Estado para controlar la apertura del modal de contacto
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
+    // Contenedor principal del hero, responsivo y con estilos de tarjeta
     <div className="flex flex-col lg:flex-row-reverse items-center justify-evenly w-full rounded-2xl p-6 mx-auto min-h-[550px] max-h-[750px] shadow-md bg-white relative">
+      {/* Imagen solo visible en escritorio */}
       <div className="hidden lg:flex flex-1 justify-center lg:justify-start">
         <Image
           src="/hero.png"
@@ -25,6 +28,7 @@ const Index = () => {
           <span className="text-primary">Desarrollador Front-End</span>
         </HeroTitle>
 
+        {/* Imagen solo visible en móvil/tablet */}
         <div className="flex lg:hidden justify-center">
           <Image
             src="/hero.png"
@@ -36,13 +40,14 @@ const Index = () => {
         </div>
 
         <SubText text="Soy un desarrollador front-end apasionado, enfocado en crear interfaces de usuario funcionales y dinamicas. Me encanta aprender nuevas tecnologías y mejorar mis habilidades cada día." />
+        {/* Botón para abrir el modal de contacto */}
         <Button
           text="CONTRÁTAME"
           icon="ic:sharp-arrow-forward"
           onClick={() => setIsModalOpen(true)}
         />
       </div>
-
+      {/* Modal de contacto, aparece al hacer click en el botón */}
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <h2 className="text-xl font-bold mb-4">Contáctame</h2>
         <ContactForm onClose={() => setIsModalOpen(false)} />

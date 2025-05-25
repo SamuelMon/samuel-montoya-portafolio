@@ -38,7 +38,7 @@ const links = [
 // Componente para pantallas grandes
 export const DesktopLinksItems = () => {
   return (
-    <div className="hidden lg:flex lg:flex-col items-center justify-start w-[10%] p-4 h-screen bg-white gap-10 sticky top-0 ">
+    <div className="hidden lg:flex lg:flex-col items-center justify-start w-[5%] p-4 h-screen bg-white gap-10 sticky top-0 ">
       <SubTitle text="Links" />
       <div className="flex flex-col items-center gap-10">
         {links.map((link, index) => (

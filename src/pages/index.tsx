@@ -7,17 +7,22 @@ import {
   MobileLinksItems,
 } from "@/components/organisms/Links";
 import Portfolio from "@/components/organisms/Portfolio";
+import {
+  ResumePanelDesktop,
+  ResumePanelMobile,
+} from "@/components/organisms/ResumePanel";
 
 export default function Home() {
   return (
     <div className="flex lg:flex-row items-start justify-between min-h-screen bg-gray-200">
-      <div className="w-[20%]"></div>
+      <ResumePanelDesktop />
       {/* Contenido principal */}
-      <div className="flex flex-col items-center justify-center gap-36 w-full md:w-[90%] lg:w-[80%] xl:w-[70%] mx-auto px-4 lg:px-8">
+      <div className="flex flex-col items-center justify-center gap-36 w-full md:w-[95%] lg:w-[85%] xl:w-[75%] mx-auto px-4 lg:px-8">
         <Hero />
         <Knowledge />
         <Education />
         <Portfolio />
+        <ResumePanelMobile />
         <MobileLinksItems />
         <Footer />
       </div>

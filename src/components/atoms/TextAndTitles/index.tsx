@@ -37,6 +37,22 @@ const SubText = ({ text }: { text: string }) => {
     </div>
   );
 };
+const TextSidebar = ({ text }: { text: string }) => {
+  return (
+    <div>
+      <p className="text-gray text-[16px] text-center lg:text-left">{text}</p>
+    </div>
+  );
+};
+const TextSidebarGreen = ({ text }: { text: string }) => {
+  return (
+    <div>
+      <p className="text-available text-[16px] text-center lg:text-left">
+        {text}
+      </p>
+    </div>
+  );
+};
 
 const TextLink = ({ text, href }: { text: string; href: string }) => {
   return (
@@ -52,4 +68,13 @@ const TextLink = ({ text, href }: { text: string; href: string }) => {
   );
 };
 
-export { HeroTitle, MediumTitle, SubTitle, TextTitle, SubText, TextLink };
+export {
+  HeroTitle,
+  MediumTitle,
+  SubTitle,
+  TextTitle,
+  SubText,
+  TextSidebar,
+  TextSidebarGreen,
+  TextLink,
+};

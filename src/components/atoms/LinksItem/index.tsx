@@ -26,7 +26,7 @@ const Index = ({ icon, href, title, isDesktop }: LinksItemProps) => {
       >
         <Icon
           icon={icon}
-          className="text-black w-6 h-6 lg:w-8 lg:h-8 xl:w-10 xl:h-10 2xl:w-12 2xl:h-12"
+          className="text-black w-6 h-6 xl:w-8 xl:h-8 2xl:w-10 2xl:h-10"
         />
       </a>
     </div>

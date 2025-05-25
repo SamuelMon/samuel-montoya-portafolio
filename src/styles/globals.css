@@ -15,3 +15,11 @@
   --color-footerbg: var(--footerbg);
   --color-available: var(--available);
 }
+
+.scrollbarNone::-webkit-scrollbar {
+  display: none;
+}
+.scrollbarNone {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
